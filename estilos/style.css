@@ -1,0 +1,335 @@
+@charset "UTF-8";
+  @import url('https://fonts.googleapis.com/css2?family=Trirong:wght@200&display=swap');
+  @font-face {
+    font-family: 'Vogue';
+    src: url('/fonts/Vogue.ttf');
+}
+@font-face {
+    font-family: 'cinzel';
+    src: url('/fonts/Cinzel-Regular.otf');
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+:root{
+    --cor0:#737373;
+    --cor1:#8a7881;
+    --cor2:#edc5c5;
+    --fonth1:'vogue';
+    --fonth2:'cinzel';
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--cor1);
+    font-size: 1.3em;
+}
+#pagina1{
+    max-height: 1080px;
+    height: 100vh;
+    background-image: url("/imagens-g/fundo1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#pagina3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    max-height: 1080px;
+    min-height: 1080px;
+    height: 100vh;
+    background-image: linear-gradient(to top,var(--cor2),var(--cor1));
+}
+#tx-somos{
+    padding: 20px;
+    background-color: white;
+    text-indent: 10px;
+    border-radius: 0px 8px 8px 8px;
+}
+h1{
+    font-size: 10em;
+    font-family: var(--fonth1);
+    cursor: pointer;
+    color: var(--cor0);
+    font-weight: lighter;
+}
+#pagina1 h2{
+    font-size: 3.3em;
+    font-family: var(--fonth2);
+    cursor: pointer;
+    color: var(--cor0);
+    font-weight: lighter;
+    padding: 15px 0px;
+    border-bottom: 2px solid var(--cor0);
+}
+h1:hover{
+    color: var(--cor2);
+    text-shadow: 3px 1px 1px rgba(0, 0, 0, 0.171);
+    transition-duration: 1s;
+}
+#pagina1 h2:hover{
+    color: var(--cor2);
+    text-shadow: 3px 1px 1px rgba(0, 0, 0, 0.171);
+    transition-duration: 1s;
+}
+#pagina3 h2{
+    font-size: 3.3em;
+    font-family: var(--fonth2);
+    cursor: pointer;
+    color: black;
+    font-weight: lighter;
+    padding: 15px 0px;
+}
+
+#quem-somos h2{
+    font-size: 2em;
+    border-radius: 8px 8px 0px 0px;
+    width: 300px;
+    background-color: var(--cor0);
+}
+.participantes2:hover{
+    color: white;
+    box-shadow: 2px 4px 9px var(--cor1);
+    transition-duration: 0.5s;
+}
+#ceo:hover{
+    color: white;
+    padding: 10px 80px;
+    transition-duration: 1s;
+}
+#participantes{
+
+    font-weight: lighter;
+    max-width: 700px;
+    width: 100%;
+    
+}
+#quem-somos{
+    font-weight: lighter;
+    max-width: 700px;
+    min-width: 300px;
+    width: 85%;
+}
+#time1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+#ceo{
+    width: 25%;
+    padding: 10px 20px;
+    background-color: var(--cor0);
+    text-align: center;
+    font-size: 2em;
+    font-family: var(--fonth2);
+    cursor: pointer;
+    color: var(--cor2);
+    font-weight: lighter;
+    border-radius: 10px;
+}
+#time2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.participantes2,.participantes3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    min-width: 170px;
+    max-width: 500px;
+    height: 50px;
+    margin: 10px;
+    background-color: var(--cor0);
+    text-align: center;
+    font-size: 1.1em;
+    font-family: var(--fonth2);
+    cursor: pointer;
+    color: var(--cor2);
+    font-weight: lighter;
+    border-radius: 10px;
+}
+#time3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#valores{
+    width: 100%;
+    height: 250px;
+}
+#pagina4{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    max-height: 1080px;
+    min-height: 1080px;
+    height: 100vh;
+    background-image: linear-gradient(to top,var(--cor1),var(--cor2));
+}
+@media screen and (max-width: 720px){
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--cor1);
+    font-size: 0.87em;
+}
+#pagina1{
+    max-height: 1080px;
+    height: 100vh;
+    background-image: url("/imagens-g/fundo1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#pagina3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    max-height: 1080px;
+    min-height: 1080px;
+    height: 100vh;
+    background-image: linear-gradient(to top,var(--cor2),var(--cor1));
+}
+#tx-somos{
+    padding: 20px;
+    background-color: white;
+    text-indent: 10px;
+    border-radius: 0px 8px 8px 8px;
+}
+h1{
+    font-size: 7em;
+    font-family: var(--fonth1);
+    cursor: pointer;
+    color: var(--cor0);
+    font-weight: lighter;
+}
+#pagina1 h2{
+    font-size: 2em;
+    font-family: var(--fonth2);
+    cursor: pointer;
+    color: var(--cor0);
+    font-weight: lighter;
+    padding: 15px 0px;
+    border-bottom: 2px solid var(--cor0);
+}
+h1:hover{
+    color: var(--cor2);
+    text-shadow: 3px 1px 1px rgba(0, 0, 0, 0.171);
+    transition-duration: 1s;
+}
+#pagina1 h2:hover{
+    color: var(--cor2);
+    text-shadow: 3px 1px 1px rgba(0, 0, 0, 0.171);
+    transition-duration: 1s;
+}
+#pagina3 h2{
+    font-size: 3.3em;
+    font-family: var(--fonth2);
+    cursor: pointer;
+    color: black;
+    font-weight: lighter;
+    padding: 15px 0px;
+}
+
+#quem-somos h2{
+    font-size: 2em;
+    border-radius: 8px 8px 0px 0px;
+    width: 300px;
+    background-color: var(--cor0);
+}
+.participantes2:hover{
+    color: white;
+    box-shadow: 2px 4px 9px var(--cor1);
+    transition-duration: 0.5s;
+}
+#ceo:hover{
+    color: white;
+    padding: 10px 80px;
+    transition-duration: 1s;
+}
+#participantes{
+
+    font-weight: lighter;
+    max-width: 700px;
+    width: 100%;
+    
+}
+#quem-somos{
+    font-weight: lighter;
+    max-width: 700px;
+    min-width: 300px;
+    width: 85%;
+}
+#time1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+#ceo{
+    width: 25%;
+    padding: 10px 20px;
+    background-color: var(--cor0);
+    text-align: center;
+    font-size: 2em;
+    font-family: var(--fonth2);
+    cursor: pointer;
+    color: var(--cor2);
+    font-weight: lighter;
+    border-radius: 10px;
+}
+#time2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.participantes2,.participantes3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    min-width: 170px;
+    max-width: 500px;
+    height: 50px;
+    margin: 10px;
+    background-color: var(--cor0);
+    text-align: center;
+    font-size: 1.1em;
+    font-family: var(--fonth2);
+    cursor: pointer;
+    color: var(--cor2);
+    font-weight: lighter;
+    border-radius: 10px;
+}
+#time3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#valores{
+    width: 100%;
+    height: 250px;
+}
+#pagina4{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    max-height: 1080px;
+    min-height: 1080px;
+    height: 100vh;
+    background-image: linear-gradient(to top,var(--cor1),var(--cor2));
+}
+}
