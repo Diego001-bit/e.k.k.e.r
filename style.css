@@ -99,7 +99,7 @@ h1:hover{
 }
 #ceo:hover{
     color: white;
-    padding: 10px 80px;
+    padding: 20px 80px;
     transition-duration: 1s;
 }
 #participantes{
@@ -123,10 +123,10 @@ h1:hover{
 }
 #ceo{
     width: 25%;
-    padding: 10px 20px;
+    padding: 20px 60px;
     background-color: var(--cor0);
     text-align: center;
-    font-size: 2em;
+    font-size: 4em;
     font-family: var(--fonth2);
     cursor: pointer;
     color: var(--cor2);
@@ -140,6 +140,7 @@ h1:hover{
 }
 .participantes2,.participantes3{
     display: flex;
+    padding: 15px;
     align-items: center;
     justify-content: center;
     width: 70%;
@@ -149,7 +150,7 @@ h1:hover{
     margin: 10px;
     background-color: var(--cor0);
     text-align: center;
-    font-size: 1.1em;
+    font-size: 2em;
     font-family: var(--fonth2);
     cursor: pointer;
     color: var(--cor2);
@@ -179,7 +180,7 @@ h1:hover{
 p{
     font-family: Arial, Helvetica, sans-serif;
     color: var(--cor1);
-    font-size: 0.87em;
+    font-size: 0.90em;
 }
 #pagina1{
     max-height: 1080px;
@@ -209,14 +210,14 @@ p{
     border-radius: 0px 8px 8px 8px;
 }
 h1{
-    font-size: 7em;
+    font-size: 6em;
     font-family: var(--fonth1);
     cursor: pointer;
     color: var(--cor0);
     font-weight: lighter;
 }
 #pagina1 h2{
-    font-size: 2em;
+    font-size: 3.3em;
     font-family: var(--fonth2);
     cursor: pointer;
     color: var(--cor0);
