@@ -27,7 +27,7 @@ p{
 #pagina1{
     max-height: 1080px;
     height: 100vh;
-    background-image: url("./imagens-g/fundo1.jpg");
+    background-image: url("../imagens-g/fundo1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
