@@ -184,18 +184,25 @@ h1:hover{
     height: 90%;
 }
 h3{
+    font-family: var(--fonth2);
     font-size: 2em;
     color: var(--cor2);
+    text-shadow: 1px 2px 4px #73737323;
 }
 .deveres{
     display: flex;
     flex-direction: column;
     margin: 10px;
     width: 50%;
+    text-indent: 10px;
 }
 img{
     margin: auto;
     height: 500px;
+}
+#penultima{
+    height: 100vh;
+    background-image: url("imagens-g/fundo-par2.jpg");
 }
 @media screen and (max-width: 720px){
 p{
@@ -345,9 +352,13 @@ h1:hover{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    height: 80vh;
-    background-image: url("./imagens-g/fundo1.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url("./imagens-g/fundo-par1.jpg");
     background-position: bottom left;
+}
+h3{
+    font-size: 1.6em;
 }
 #bloco-deveres{
     display: flex;
@@ -365,7 +376,7 @@ h1:hover{
 }
 img{
     margin: auto;
-    min-height: 200px;
-    height: 300px;
+    min-height:200px;
+    height: 350px;
 }
 }
