@@ -329,6 +329,7 @@ h1:hover{
     align-items: center;
     justify-content: center;
     width: 70%;
+    padding: 8px;
     min-width: 170px;
     max-width: 500px;
     height: 40px;
