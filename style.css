@@ -2,11 +2,11 @@
   @import url('https://fonts.googleapis.com/css2?family=Trirong:wght@200&display=swap');
   @font-face {
     font-family: 'Vogue';
-    src: url('/fonts/Vogue.ttf');
+    src: url('./fonts/Vogue.ttf');
 }
 @font-face {
     font-family: 'cinzel';
-    src: url('/fonts/Cinzel-Regular.otf');
+    src: url('./fonts/Cinzel-Regular.otf');
 }
 *{
     margin: 0%;
@@ -264,7 +264,7 @@ h1:hover{
     transition-duration: 1s;
 }
 #pagina3 h2{
-    font-size: 3.3em;
+    font-size: 3em;
     font-family: var(--fonth2);
     cursor: pointer;
     color: black;
@@ -331,11 +331,11 @@ h1:hover{
     width: 70%;
     min-width: 170px;
     max-width: 500px;
-    height: 50px;
+    height: 40px;
     margin: 10px;
     background-color: var(--cor0);
     text-align: center;
-    font-size: 1.1em;
+    font-size: 0.79em;
     font-family: var(--fonth2);
     cursor: pointer;
     color: var(--cor2);
@@ -353,6 +353,7 @@ h1:hover{
     align-items: center;
     flex-wrap: wrap;
     height: 100%;
+    width: 100%;
     background-repeat: no-repeat;
     background-image: url("./imagens-g/fundo-par1.jpg");
     background-position: bottom left;
@@ -367,6 +368,7 @@ h3{
     flex-wrap: wrap;
     width: 90%;
     height: 90%;
+    max-width: 100vw;
 }
 .deveres{
     display: flex;
@@ -379,7 +381,4 @@ img{
     min-height:200px;
     height: 350px;
 }
-}
-@media screen and (max-width: 300px){
-
 }
