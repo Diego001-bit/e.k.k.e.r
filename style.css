@@ -19,10 +19,17 @@
     --fonth1:'vogue';
     --fonth2:'cinzel';
 }
+
 p{
     font-family: Arial, Helvetica, sans-serif;
     color: var(--cor1);
     font-size: 1.3em;
+}
+#meuTitulo{
+    transition-duration: 2s;
+    position: relative;
+    color: transparent;
+    left: -25%;
 }
 #pagina1{
     max-height: 1080px;
@@ -67,7 +74,7 @@ h1{
     padding: 15px 0px;
     border-bottom: 2px solid var(--cor0);
 }
-h1:hover{
+#meuTitulo:hover{
     color: var(--cor2);
     text-shadow: 3px 1px 1px rgba(0, 0, 0, 0.171);
     transition-duration: 1s;
@@ -143,7 +150,7 @@ h1:hover{
     padding: 15px;
     align-items: center;
     justify-content: center;
-    width: 70%;
+    width: 300px;
     min-width: 170px;
     max-width: 500px;
     height: 50px;
@@ -171,6 +178,7 @@ h1:hover{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    background-size: cover;
     height: 100vh;
     background-image: url("./imagens-g/fundo1.jpg");
 }
@@ -180,8 +188,8 @@ h1:hover{
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-    width: 90%;
-    height: 90%;
+    width: 80%;
+    height: 80%;
 }
 h3{
     font-family: var(--fonth2);
@@ -201,8 +209,42 @@ img{
     height: 500px;
 }
 #penultima{
+
     height: 100vh;
-    background-image: url("imagens-g/fundo-par2.jpg");
+    background-image: url("imagens-g/12.png");
+    background-size: cover;
+    background-position: center;  
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+#bo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+}
+#ultparagrafo{
+    font-size: 2em;
+    bottom: 10px;
+    text-decoration: none;
+    color: white;
+    margin-top: 100px;
+}
+#ultparagrafo:hover{
+    transition-duration: 1s;
+    color: var(--cor2);
+}
+@media screen and (min-width: 1720px){
+    #bo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 10%;
+    }
 }
 @media screen and (max-width: 720px){
 p{
@@ -328,15 +370,15 @@ h1:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 70%;
-    padding: 8px;
+    width: 200px;
+    padding: 10px;
     min-width: 170px;
     max-width: 500px;
-    height: 40px;
-    margin: 10px;
+    height: 30px;
+    margin: 6px;
     background-color: var(--cor0);
     text-align: center;
-    font-size: 0.79em;
+    font-size: 0.90em;
     font-family: var(--fonth2);
     cursor: pointer;
     color: var(--cor2);
@@ -349,7 +391,6 @@ h1:hover{
     justify-content: space-between;
 }
 #pagina4{
-
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -381,5 +422,29 @@ img{
     margin: auto;
     min-height:200px;
     height: 350px;
+}
+#penultima{
+    width: 100%;
+    background-image: url("imagens-g/12.jpg");
+    background-size: cover;
+    background-position: center;  
+    background-repeat: no-repeat;
+}
+#bo{
+    margin-top: 850px;
+}
+#ultparagrafo{
+    font-size: 2em;
+    bottom: 10px;
+    text-decoration: none;
+    color: white;
+    margin-top: 100px;
+}
+#bo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 190px;
 }
 }
